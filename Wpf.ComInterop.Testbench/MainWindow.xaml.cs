@@ -9,7 +9,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Wpf.ComInteropTestbench
+namespace Wpf.ComInterop.Testbench
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

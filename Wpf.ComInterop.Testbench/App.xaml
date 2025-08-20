@@ -1,8 +1,8 @@
-﻿<Application x:Class="Wpf.ComInteropTestbench.App"
+﻿<Application x:Class="Wpf.ComInterop.Testbench.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:Wpf.ComInteropTestbench"
-             StartupUri="Wpf.ComInteropTestbench.App">
+             xmlns:local="clr-namespace:Wpf.ComInterop.Testbench"
+             StartupUri="MainWindow.xaml">
     <Application.Resources>
          
     </Application.Resources>
