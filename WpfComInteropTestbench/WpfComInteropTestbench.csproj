@@ -11,7 +11,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\WpfComInterop\Wpf.ComInterop.csproj" />
+	  <ProjectReference Include="..\WpfComInterop\Wpf.ComInterop.csproj" />
 	</ItemGroup>
 
 </Project>

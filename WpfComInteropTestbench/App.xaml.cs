@@ -1,7 +1,4 @@
-﻿using System.Configuration;
-using System.Data;
-using System.Windows;
-using Wpf.ComInterop;
+﻿using System.Windows;
 
 namespace Wpf.ComInterop.Testbench
 {
@@ -22,7 +19,6 @@ namespace Wpf.ComInterop.Testbench
 
             _simpleObject = new SimpleComInteropClass();
             _simpleObject.ShowWindow();
-
 
         }
 
