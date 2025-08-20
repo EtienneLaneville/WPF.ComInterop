@@ -3,9 +3,9 @@ This is a simple WPF Class Library project (`Wpf.ComInterop`) designed to illust
 
 ## Setup
 1. Build the Solution.
-2. Using [dscom32](https://github.com/dspace-group/dscom), export a TLB file: `dscom32 tlbexport "(your path)\Wpf.ComInterop.Demo\bin\x86\Debug\net8.0-windows10.0.19041.0\Wpf.ComInterop.dll"`
-3. Using [dscom32](https://github.com/dspace-group/dscom), register the TLB file: `dscom32 tlbregister "(your path)\Wpf.ComInterop.Demo\bin\x86\Debug\net8.0-windows10.0.19041.0\Wpf.ComInterop.tlb"`
-4. Using RegSvr32, register the comhost.dll file: `regsvr32 "(your path)\Wpf.ComInterop.Demo\bin\x86\Debug\net8.0-windows10.0.19041.0\Wpf.ComInterop.comhost.dll"`
+2. Using [`dscom32`](https://github.com/dspace-group/dscom), export a TLB file: `dscom32 tlbexport "(your path)\Wpf.ComInterop.Demo\bin\x86\Debug\net8.0-windows10.0.19041.0\Wpf.ComInterop.dll"`
+3. Using [`dscom32`](https://github.com/dspace-group/dscom), register the TLB file: `dscom32 tlbregister "(your path)\Wpf.ComInterop.Demo\bin\x86\Debug\net8.0-windows10.0.19041.0\Wpf.ComInterop.tlb"`
+4. Using `RegSvr32`, register the `Wpf.ComInterop.comhost.dll` file: `regsvr32 "(your path)\Wpf.ComInterop.Demo\bin\x86\Debug\net8.0-windows10.0.19041.0\Wpf.ComInterop.comhost.dll"`
 
 This only has to be done once. The solution can be rebuilt without having to generate a TLB file **unless ISimpleHost changes**.
 
