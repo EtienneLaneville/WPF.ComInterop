@@ -12,7 +12,7 @@ namespace Wpf.ComInterop
     public class SimpleComInteropClass : ISimpleHost
     {
 
-        private ClassA _a;
+        private ClassA? _a;
 
         public SimpleComInteropClass()
         {
