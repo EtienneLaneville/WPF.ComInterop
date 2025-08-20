@@ -3,13 +3,6 @@ using System.Windows;
 namespace Wpf.A
 {
 
-    public enum ItemsA
-    {
-        Value1,
-        Value2,
-        Value3
-    }
-
     public class ClassA
     {
 

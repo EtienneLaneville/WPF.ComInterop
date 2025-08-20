@@ -11,14 +11,10 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <None Remove="Form1.frm" />
-	  <None Remove="MSSCCPRJ.SCC" />
-	  <None Remove="Project1.vbp" />
-	  <None Remove="Project1.vbw" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <ProjectReference Include="..\Wpf.A\Wpf.A.csproj" />
+	  <ProjectReference Include="..\Wpf.A\Wpf.A.csproj">
+	    <Private>True</Private>
+	    <CopyLocalSatelliteAssemblies>True</CopyLocalSatelliteAssemblies>
+	  </ProjectReference>
 	</ItemGroup>
 
 </Project>
