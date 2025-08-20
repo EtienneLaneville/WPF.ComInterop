@@ -1,10 +1,11 @@
 Type=Exe
 Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\Windows\SysWOW64\stdole2.tlb#OLE Automation
 Reference=*\G{F3D0E09D-A89D-262B-31B0-096FE9A90CC1}#1.0#0#..\WpfComInterop\bin\x86\Debug\net8.0-windows10.0.19041.0\Wpf.ComInterop.tlb#Wpf_ComInterop
-Form=Form1.frm
-Startup="Form1"
+Form=MainForm.frm
+Startup="MainForm"
+HelpFile=""
 Command32=""
-Name="Project1"
+Name="WpfComInteropTestbench"
 HelpContextID="0"
 CompatibleMode="0"
 MajorVer=1
