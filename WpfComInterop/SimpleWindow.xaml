@@ -9,9 +9,7 @@
         Title="SimpleWindow" Height="450" Width="800">
     <Grid>
 
-        <StackPanel>
-            <wpfa:UserControlA/>
-        </StackPanel>
+        <wpfa:UserControlA/>
 
     </Grid>
 </Window>

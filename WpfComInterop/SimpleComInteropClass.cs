@@ -16,8 +16,8 @@ namespace Wpf.ComInterop
 
         public SimpleComInteropClass()
         {
-            _a = new ClassA();
-            _a.DoA();
+            //_a = new ClassA();
+            //_a.DoA();
         }
 
         public void ShowWindow()
